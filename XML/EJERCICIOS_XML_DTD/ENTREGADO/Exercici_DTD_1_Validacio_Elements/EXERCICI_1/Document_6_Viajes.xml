@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE viajes [
+    <!ELEMENT viajes (austria, italia, francia)>
+    <!ELEMENT austria (ciudad+)>
+    <!ELEMENT italia (ciudad+)>
+    <!ELEMENT francia (ciudad+)>
+    <!ELEMENT ciudad (#PCDATA)>
+]>
+<viajes>
+    <austria>
+        <ciudad>ciudad</ciudad>
+        <ciudad>ciudad2</ciudad>
+        <ciudad>ciudad3</ciudad>
+    </austria>
+    <italia>
+        <ciudad>ciudad</ciudad>
+        <ciudad>ciudad2</ciudad>
+        <ciudad>ciudad3</ciudad>
+    </italia>
+    <francia>
+        <ciudad>ciudad</ciudad>
+        <ciudad>ciudad2</ciudad>
+        <ciudad>ciudad3</ciudad>
+    </francia>
+</viajes>

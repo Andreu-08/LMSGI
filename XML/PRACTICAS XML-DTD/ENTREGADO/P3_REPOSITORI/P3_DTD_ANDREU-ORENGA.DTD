@@ -1,0 +1,24 @@
+<!ELEMENT repositori (nom, categoria, llista_software)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT categoria (#PCDATA)>
+        <!ELEMENT llista_software (software+)
+        <!ELEMENT software (nom, etiquetes*, developer+ files)>
+        <!ATTLIST software ID #REQUIRED>
+        <!ATTLIST software programari ( free | comercial) "free" #REQUIRED>
+        <!ATTLIST software puntuacio (0 | 1 | 2 | 3 | 4 |5) #REQUIRED>
+        <!ELEMENT etiquetes (#PCDATA)>
+        <!ELEMENT developer (nom, cognom,tipus)>
+        <!ELEMENT cognom (#PCDATA)>
+        <!ATTLIST developer web CDATA #REQUIRED>
+        <!ATTLIST developer imagen (jpg | png | gif) #REQUIRED>
+        <!ELEMENT tipus (freelance | compañia)>
+        <!ELEMENT freelance EMPTY>
+        <!ELEMENT compañia (email)>
+        <!ATTLIST compañia web CDATA #REQUIRED>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT files (nom, checksum, upload)>
+        <!ATTLIST files bytes CDATA #REQUIRED>
+        <!ATTLIST files URL CDATA #REQUIRED>
+        <!ELEMENT checksum (#PCDATA)>
+        <!ELEMENT upload (#PCDATA)>
+        ]>

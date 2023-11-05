@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE repositori  SYSTEM "P3_DTD_ANDREU-ORENGA.DTD"[]>
+
+<repositori>
+    <nom>nom</nom>
+    <categoria>categoria</categoria>
+    <llista_software>
+        <software puntuacio="5" ID="1234" programari="comercial">
+            <nom>nom</nom>
+            <etiquetes>etiqueta</etiquetes>
+            <developer web="url web" imagen="png">
+                <nom>nom developer</nom>
+                <cognom>cognom developer</cognom>
+                <tipus>
+                    <compañia web="url compañia">
+                        <email>email compañia</email>
+                    </compañia>
+                </tipus>
+            </developer>
+            <files bytes="" URL="">
+                <nom>nom archiu</nom>
+                <checksum>checksum</checksum>
+                <upload>fecha upload</upload>
+            </files>
+        </software>
+    </llista_software>
+</repositori>

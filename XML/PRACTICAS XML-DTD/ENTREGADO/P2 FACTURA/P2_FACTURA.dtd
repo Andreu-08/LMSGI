@@ -1,0 +1,21 @@
+<!ELEMENT facturas (factura)*>
+        <!ELEMENT factura (emisor, client, detalles)>
+        <!ATTLIST factura numero NMTOKEN #REQUIRED>
+        <!ATTLIST factura fecha CDATA #REQUIRED>
+        <!ELEMENT emisor (nom, telefon)>
+        <!ELEMENT client (nom, telefon)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT telefon (#PCDATA)>
+        <!ATTLIST emisor CIF NMTOKEN #REQUIRED>
+        <!ATTLIST client CIF NMTOKEN #REQUIRED>
+        <!ELEMENT detalles (linea)+>
+        <!ATTLIST detalles importe CDATA #REQUIRED>
+        <!ELEMENT linea (descripcion, cantidad, oferta, pvp)>
+        <!ATTLIST linea codarticulo ID #REQUIRED>
+        <!ATTLIST linea tipo (libro | DVD | varios) #IMPLIED>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ELEMENT cantidad (#PCDATA)>
+        <!ELEMENT oferta EMPTY>
+        <!ATTLIST oferta  oferta (SI | NO) "SI">
+        <!ELEMENT pvp (#PCDATA)>
+        ]>

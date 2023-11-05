@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE facturas SYSTEM "P2_FACTURA.dtd" []>
+
+<facturas>
+    <factura numero="27" fecha="18/12/2025">
+        <emisor CIF="44555666B">
+            <nom>LIBRERIA PEREZ</nom>
+            <telefon>777888999</telefon>
+        </emisor>
+        <client CIF="33111222A">
+            <nom>Bibliote txantrea</nom>
+            <telefon>333999444</telefon>
+        </client>
+        <detalles importe="85€">
+            <linea codarticulo="AW7" tipo="libro">
+                <descripcion>Analitica web 2.0</descripcion>
+                <cantidad>1</cantidad>
+                <oferta oferta="SI"/>
+                <pvp>25€</pvp>
+            </linea>
+            <linea codarticulo="CP5" tipo="DVD">
+                <descripcion>Curso HTML</descripcion>
+                <cantidad>2</cantidad>
+                <oferta oferta="NO"/>
+                <pvp>30€</pvp>
+            </linea>
+        </detalles>
+    </factura>
+</facturas>

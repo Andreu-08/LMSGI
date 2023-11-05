@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE forma_geometrica [
+    <!ELEMENT forma_geometrica (nombre, caracteristicas, numero_de_lados)>
+    <!ELEMENT caracteristicas (color, tipo)
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT numero_de_lados (#PCDATA)>
+]>
+<forma_geometrica>
+    <nombre>rombo</nombre>
+    <caracteristicas>
+        <color>naranja</color>
+        <tipo>plana</tipo>
+    </caracteristicas>
+    <numero_de_lados>4</numero_de_lados>
+</forma_geometrica>

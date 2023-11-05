@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE aereoports [
+        <!ELEMENT aereoports (aereoport)*>
+        <!ELEMENT aereoport (nom, vols*, data)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT vols (vol+)>
+        <!ELEMENT vol (diari?, origen, desti, eixida, arribada)>
+        <!ATTLIST vol codi ID #REQUIRED>
+        <!ATTLIST vol estat (C | E | R) "E">
+        <!ELEMENT diari EMPTY>
+        <!ELEMENT origen (#PCDATA)>
+        <!ELEMENT desti (#PCDATA)>
+        <!ELEMENT eixida (#PCDATA)>
+        <!ELEMENT arribada (#PCDATA)>
+        <!ELEMENT data (#PCDATA)>
+        ]>
+<aereoports>
+    <aereoport>
+        <nom>JFK</nom>
+        <vols>
+            <vol codi="V22" estat="R">
+                <origen>New York</origen>
+                <desti>Chicago</desti>
+                <eixida>9.30</eixida>
+                <arribada>11.30</arribada>
+            </vol>
+            <vol codi="v23" estat="C">
+                <origen>New York</origen>
+                <desti>Miami</desti>
+                <eixida>10:15</eixida>
+                <arribada>11:15</arribada>
+            </vol>
+        </vols>
+        <data>20/12/2025</data>
+    </aereoport>
+</aereoports>
+
+    

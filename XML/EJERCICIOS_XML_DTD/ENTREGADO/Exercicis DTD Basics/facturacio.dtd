@@ -1,0 +1,28 @@
+<!ELEMENT facturacio (empresa, factura*)>
+        <!ELEMENT empresa (raosocial)>
+        <!ELEMENT raosocial (nom, cognom*, adreca, codipostal, poblacio, (NIF | DNI))>
+        <!ATTLIST raosocial tipus CDATA #REQUIRED>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT adreca (#PCDATA)>
+        <!ELEMENT codipostal (#PCDATA)>
+        <!ELEMENT poblacio (#PCDATA)>
+        <!ELEMENT NIF (#PCDATA)>
+        <!ELEMENT factura ( client,rebut*, data, subtotal, iva, total)>
+        <!ATTLIST factura numero NMTOKEN  #REQUIRED>
+        <!ELEMENT client (raosocial)>
+        <!ELEMENT rebut (data, totalrebut, linies)>
+        <!ATTLIST rebut numero NMTOKEN #REQUIRED>
+        <!ELEMENT data (#PCDATA)>
+        <!ELEMENT totalrebut (#PCDATA)>
+        <!ELEMENT linies (producte)*>
+        <!ATTLIST producte  codi NMTOKEN #REQUIRED>
+        <!ELEMENT producte (descripcio, quantitat, preuunitari)>
+        <!ELEMENT descripcio (#PCDATA)>
+        <!ELEMENT quantitat (#PCDATA)>
+        <!ELEMENT preuunitari (#PCDATA)>
+        <!ELEMENT cognom (#PCDATA)>
+        <!ELEMENT DNI (#PCDATA)>
+        <!ELEMENT subtotal (#PCDATA)>
+        <!ELEMENT iva (#PCDATA)>
+        <!ELEMENT total (#PCDATA)>
+        ]>

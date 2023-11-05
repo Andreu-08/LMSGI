@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE blog SYSTEM "P4_BLOG_AndreuOrenga.dtd"[]>
+<blog>
+    <categoria id="23" nom="nom categoria">
+        <event id="45" URL="url event" activitat="gratuita">
+            <titol>titol event</titol>
+            <lloc>lloc event</lloc>
+            <text>descripcio event</text>
+            <data>data event</data>
+            <hora>hora event</hora>
+            <data_fi>data fi event</data_fi>
+            <hora_fi>hora fi event</hora_fi>
+        </event>
+    </categoria>
+    <categoria id="56" nom="nom categoria">
+        <noticia id="100" URL="url noticia" puntuacio="3">
+            <text>descripcio noticia</text>
+            <titol>titol noticia</titol>
+            <data>data noticia</data>
+            <hora>hora noticia</hora>
+            <imatge URL="png"/>
+            <comentari>
+                <text>text comentari</text>
+                <data>data comentari</data>
+                <hora>hora comentari</hora>
+                <autor>aututor (pot no estar)</autor>
+            </comentari>
+        </noticia>
+    </categoria>
+</blog>

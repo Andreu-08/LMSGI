@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE partes [
+    <!ELEMENT partes (secciones)>
+    <!ELEMENT secciones ANY>
+    <!ELEMENT letras (#PCDATA)>
+]>
+<partes>
+    <secciones>
+        <letras>abc</letras>
+        MNT
+        <letras>xyz</letras>
+    </secciones>
+</partes>

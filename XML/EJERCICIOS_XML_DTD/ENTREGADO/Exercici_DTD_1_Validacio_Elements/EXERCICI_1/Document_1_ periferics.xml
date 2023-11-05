@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE perifericos 
+[<!ELEMENT perifericos (#PCDATA)>]
+>
+<perifericos>impresora, monitor, teclado</perifericos>

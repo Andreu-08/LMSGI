@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eleccions SYSTEM "eleccions.dtd">
+
+<eleccions> 
+    <descripcio>Marcianes 2010</descripcio>
+    <dades>
+        <data>2010-11-29</data>
+        <cens>500</cens>
+        <abstencio>450</abstencio>
+        <blancs>12</blancs>
+    </dades>
+    <resultats>
+        <partit>
+            <nom>Partit Vermell</nom>
+            <vots>8</vots>
+        </partit>
+        <partit>
+            <nom>Marcians Units</nom>
+            <vots>14</vots>
+        </partit>
+        <partit>
+            <nom>Coordinadora per un planeta verd</nom>
+            <vots>5</vots>
+        </partit>
+        <partit>
+            <nom>Partit de Phobos</nom>
+            <vots>5</vots>
+        </partit>
+        <partit>
+            <nom>Esquerra Marciana</nom>
+            <vots>6</vots>
+        </partit>        
+    </resultats>    
+</eleccions>

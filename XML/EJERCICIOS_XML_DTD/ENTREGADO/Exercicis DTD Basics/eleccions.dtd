@@ -1,0 +1,11 @@
+<!ELEMENT eleccions (descripcio, dades, resultats)>
+        <!ELEMENT descripcio (#PCDATA)>
+        <!ELEMENT dades (data, cens, abstencio, blancs)>
+        <!ELEMENT data (#PCDATA)>
+        <!ELEMENT cens (#PCDATA)>
+        <!ELEMENT abstencio (#PCDATA)>
+        <!ELEMENT blancs (#PCDATA)>
+        <!ELEMENT resultats (partit)*>
+        <!ELEMENT partit (nom, vots)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT vots (#PCDATA)>

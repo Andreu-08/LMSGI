@@ -1,0 +1,14 @@
+<comanda>
+    <destinatari>Elton Tito</destinatari>
+    <article>Bicicleta A2023</article>
+    <Direcció-de-Entrega>
+        <carrer>Sal si puedes</carrer>
+        <pis>4</pis>
+        <lletra>A</lletra>
+    </Direcció-de-Entrega>
+    <Fecha-de-entrega>
+        <dia>05</dia>
+        <mes>10</mes>
+        <any>2023</any>
+    </Fecha-de-entrega>
+</comanda>

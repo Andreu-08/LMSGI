@@ -1,0 +1,28 @@
+<!ELEMENT blog (categoria+)>
+        <!ELEMENT categoria (noticia | event)+>
+        <!ATTLIST categoria
+                id  ID #REQUIRED
+                nom CDATA #REQUIRED>
+        <!ELEMENT noticia (text, titol, data, hora, comentari, imatge*, etiqueta*)>
+        <!ATTLIST noticia
+                id ID #REQUIRED
+                URL CDATA #REQUIRED
+                puntuacio ( 0 | 1 | 2 | 3 ) #IMPLIED>
+        <!ELEMENT titol (#PCDATA)>
+        <!ELEMENT text (#PCDATA)>
+        <!ELEMENT comentari (text, data, hora, autor?)>
+        <!ELEMENT autor (#PCDATA)>
+        <!ELEMENT data (#PCDATA)>
+        <!ELEMENT hora (#PCDATA)>
+        <!ELEMENT imatge EMPTY>
+        <!ATTLIST imatge URL (jpg | png | bmp) #IMPLIED>
+        <!ELEMENT etiqueta (#PCDATA)>
+        <!ELEMENT event (titol, lloc,text, data, hora, (hora_fi, data_fi)?)>
+        <!ATTLIST event
+                id ID #REQUIRED
+                activitat (pagament | gratuita) #IMPLIED
+                URL CDATA #REQUIRED>
+        <!ELEMENT lloc (#PCDATA)>
+        <!ELEMENT hora_fi (#PCDATA)>
+        <!ELEMENT data_fi (#PCDATA)>
+        ]>
