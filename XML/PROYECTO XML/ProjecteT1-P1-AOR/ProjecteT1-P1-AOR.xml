@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE biblioteca SYSTEM "ProjecteT1-P1-AOR.dtd"[]>
+
+ <biblioteca>
+    <libro idref="" portada="jpg">
+        <titulo></titulo>
+        <fecha_publicacion></fecha_publicacion>
+        <genero id=""></genero>
+        <editorial URL=""></editorial>
+    </libro>
+    <autor foto="" id="">
+        <nombre></nombre>
+        <genero_principal idref=""></genero_principal>
+        <nacionalidad></nacionalidad>
+        <fecha_nacimiento></fecha_nacimiento>
+    </autor>
+    <autor foto="" id="">
+        <nombre></nombre>
+        <genero_principal idref=""></genero_principal>
+        <nacionalidad></nacionalidad>
+        <fecha_nacimiento></fecha_nacimiento>
+    </autor>
+    <autor foto="" id="">
+        <nombre></nombre>
+        <genero_principal idref=""></genero_principal>
+        <nacionalidad></nacionalidad>
+        <fecha_nacimiento></fecha_nacimiento>
+    </autor>
+</biblioteca>
