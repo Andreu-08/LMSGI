@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "ProjecteT1-P1-AOR.dtd"[]>
+
+<biblioteca>
+    <libro autor="1" portada="https://www.mrbooks.com/mrbooks/portadas/9786287574045.webp" coleccion="SI" ref="13">
+      <titulo>EL señor de los anillos, La Comunidad Del Anillo</titulo>
+      <año_publicacion>1954</año_publicacion>
+      <genero id="fantasia epica"/>
+      <editorial>HarperCollins</editorial>
+    </libro>
+    <libro autor="1" portada="https://www.mrbooks.com/mrbooks/portadas/9786287574052.webp" coleccion="SI" ref="23">
+        <titulo>El señor de los anillos, Las Dos Torres</titulo>
+        <año_publicacion>1954</año_publicacion>
+        <genero idref="fantasia epica"/>
+        <editorial>HarperCollins</editorial>
+    </libro>
+    <autor foto="https://i0.wp.com/elanillounico.com/wp-content/uploads/2015/03/JRR-Tolkien15.jpg?fit=760%2C1076ssl=1" id="1">
+        <nombre>J.R.R. Tolkien</nombre>
+        <nacionalidad>Britanica</nacionalidad>
+        <fecha_nacimiento>03/01/1892</fecha_nacimiento>
+        <bibliografia libros="13, 23"/>
+    </autor>
+    <autor id="2" foto="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/27queensgambitbook-articleLarge.webp/220px-27queensgambitbook-articleLarge.webp.png">
+        <nombre>Walter Tevis</nombre>
+        <nacionalidad>E.E.U.U.</nacionalidad>
+        <fecha_nacimiento>28/02/1928</fecha_nacimiento>
+        <bibliografia libros="10"/>
+    </autor>
+    <libro autor="2" ref="10" coleccion="NO" portada="https://impedimenta.es/wp-content/uploads/9788418668371_SINSONTE_TEVIS_RGB.jpg">
+        <titulo>Sinsonte</titulo>
+        <año_publicacion>1980</año_publicacion>
+        <genero id="ciencia ficcion"/>
+        <editorial>IMPEDIMENTA</editorial>
+    </libro>
+    <autor id="3" foto="https://imagessl.casadellibro.com/img/autores/w/20097961.webp">
+        <nombre>Cixin Liu</nombre>
+        <nacionalidad>China</nacionalidad>
+        <fecha_nacimiento>23/07/1963</fecha_nacimiento>
+        <bibliografia libros="11, 12"/>
+    </autor>
+    <libro autor="3" ref="11" coleccion="SI" portada="https://imagessl4.casadellibro.com/a/l/s7/34/9788466659734.webp">
+        <titulo>El Problema De Los Tres Cuerpos</titulo>
+        <año_publicacion>2006</año_publicacion>
+        <genero idref="ciencia ficcion"/>
+        <editorial>EDICIONES B</editorial>
+    </libro>
+    <libro autor="3" ref="12" coleccion="SI" portada="https://imagessl1.casadellibro.com/a/l/s7/21/9788466660921.webp">
+        <titulo>El Problema De Los Tres Cuerpos, Bosque Oscuro</titulo>
+        <año_publicacion>2017</año_publicacion>
+        <genero idref="ciencia ficcion"/>
+        <editorial>EDICIONES B</editorial>
+    </libro>
+    <autor id="4" foto="https://imagessl.casadellibro.com/img/autores/121490-1.jpg">
+        <nombre>Joe Abercrombie</nombre>
+        <nacionalidad>Reino Unido</nacionalidad>
+        <fecha_nacimiento>31/12/1974</fecha_nacimiento>
+        <bibliografia libros="15, 16"/>
+    </autor>
+    <libro autor="4" ref="15" portada="https://imagessl8.casadellibro.com/a/l/s7/88/9788420682488.webp" coleccion="SI">
+        <titulo>La Voz De Las Espadas</titulo>
+        <año_publicacion>2006+</año_publicacion>
+        <genero idref="fantasia epica"/>
+        <editorial>ALIANZA EDITORIAL</editorial>
+    </libro>
+    <libro autor="4" ref="16" portada="https://imagessl1.casadellibro.com/a/l/s7/01/9788420682501.webp" coleccion="SI">
+        <titulo>Antes De Que Los Cuelguen</titulo>
+        <año_publicacion>2007</año_publicacion>
+        <genero idref="fantasia epica"/>
+        <editorial>ALIANZA EDITORIAL</editorial>
+    </libro>
+    <autor id="5" foto="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQVo2gUxd6sla0UctNdZ-iA_I8pIF7KqpyfdyKTZuEUt4khnU1B">
+        <nombre>J.D. Salinger</nombre>
+        <nacionalidad>E.E.U.U</nacionalidad>
+        <fecha_nacimiento>01/01/1919</fecha_nacimiento>
+        <bibliografia libros="17"/>
+    </autor>
+    <libro autor="5" ref="17" coleccion="NO" portada="https://imagessl9.casadellibro.com/a/l/s7/09/9788420674209.webp">
+        <titulo>El Guardian Entre El Centeno</titulo>
+        <año_publicacion>1951</año_publicacion>
+        <genero id="realismo"/>
+        <editorial>ALIANZA EDITORIAL</editorial>
+    </libro>
+</biblioteca>

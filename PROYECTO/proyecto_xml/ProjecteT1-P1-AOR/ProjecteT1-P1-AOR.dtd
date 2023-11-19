@@ -1,0 +1,22 @@
+<!ELEMENT biblioteca (libro*, autor*)>
+        <!ELEMENT libro (titulo,año_publicacion, genero, editorial)>
+        <!ELEMENT autor (nombre,nacionalidad, fecha_nacimiento, bibliografia)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT año_publicacion (#PCDATA)>
+        <!ELEMENT genero EMPTY>
+        <!ELEMENT editorial (#PCDATA)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT nacionalidad (#PCDATA)>
+        <!ELEMENT fecha_nacimiento (#PCDATA)>
+        <!ELEMENT bibliografia EMPTY>
+
+        <!ATTLIST libro autor IDREF #REQUIRED>
+        <!ATTLIST libro portada CDATA #REQUIRED>
+        <!ATTLIST libro coleccion (SI | NO) "NO" #REQUIRED>
+        <!ATTLIST libro ref ID #REQUIRED>
+        <!ATTLIST autor foto CDATA #REQUIRED>
+        <!ATTLIST autor id ID #REQUIRED>
+        <!ATTLIST genero id ID #IMPLIED>
+        <!ATTLIST genero idref IDREF #IMPLIED>
+        <!ATTLIST editorial URL #IMPLIED>
+        <!ATTLIST bibliografia libros IDREFS  #REQUIRED>
