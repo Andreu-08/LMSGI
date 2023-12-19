@@ -1,0 +1,37 @@
+body{
+    color: dimgrey;
+    font-family: fantasy;
+    font-size: x-small;
+    font-weight: inherit;
+    text-align: center;
+}
+p{
+   color: darkgray;
+}
+strong{
+    color: lightslategray;
+}
+#infoPersonal{
+    color: black;
+    background-color: lightgreen;
+    padiding: 10px;
+    margin: 10px;
+}
+.Explaboral{
+    font-size: 20px;
+    background-color: cadetblue;
+
+}
+
+.Educacio{
+    font-family: MV Boli;
+    background-color: darkgoldenrod;
+}
+h1, h2, h3{
+    font-family: MV Boli;
+
+}
+
+
+
+
