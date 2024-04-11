@@ -1,0 +1,48 @@
+div{
+    width: 300px;
+}
+.primer-parrafo{
+    color: #2ecc71;
+}
+body{
+    font-size: 15px;
+}
+#segon #tercer{
+    display: inline-block;
+}
+
+a:hover{
+
+    background-color: red;
+}
+p span{
+    font-weight: bold;
+}
+.resaltat{
+    background-color: orange;
+}
+#tercer  span{
+    background-color: blue;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: grey;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+td:nth-child(-n+2){
+    color: red;
+}
+td:nth-child(3){
+    color: blue;
+}
+td:last-child{
+    text-decoration: underline;
+}
+

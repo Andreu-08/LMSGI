@@ -1,0 +1,144 @@
+:root {
+
+    /*variables para los colores*/
+
+    /*paleta de colores*/
+
+    --default: #999999;
+    --red: #E74C3C;
+    --blue: #3498DB;
+    --purple: #9b59b6;
+    --yellow: #feb506;
+    --green: #62cb31;
+
+
+    /*background colors*/
+
+    --bg-from: #1c3744;
+    --bg_to: #1e5372;
+
+    /*background tarjetas*/
+
+    --bg-card: #fafafa;
+    --bg-card-hover: #dadada
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #1E5372;
+    /*degrado hacia la derecha de los colores declarados en las variables*/
+    background: linear-gradient(to right,
+                var(--bg-from),
+                var(--bg_to));
+}
+
+a{
+  color: inherit;
+}
+
+p{
+    margin: 0;
+    display: inline-block;;
+}
+
+h2{
+    color: var(--bg-card);
+}
+
+.container{
+    padding: 20px;
+    height: 100%;
+}
+
+/*estilo que envolvera la tarjeta, clase para el contenedor de cada tarjeta*/
+.tarjeta{
+
+    /*se utiliza var() para utilizar las varibles*/
+    background-color: var(--bg-card);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+/*estilos de clase para los bordes de cada color (se podran utilizar como una subclase de la clase principal)*/
+.tarjeta.default{
+
+    border-bottom: 5px solid var(--default);
+}
+.tarjeta.red{
+    border-bottom: 5px solid var(--red);
+}
+.tarjeta.blue{
+    border-bottom: 5px solid var(--blue);
+}
+.tarjeta.purple{
+    border-bottom: 5px solid var(--purple);
+}
+.tarjeta.yellow{
+    border-bottom: 5px solid var(--yellow);
+}
+.tarjeta.green{
+    border-bottom: 5px solid var(--green);
+}
+
+/*estilos de clase para efecto aumento*/
+.tarjeta.pulse{
+    transition: 0.5s; /*tiempo de duracion del efecto*/
+}
+
+.tarjeta.pulse:hover{
+    transform: scale(1.05);/*tamaño que aumentara al poner el raton*/
+}
+
+/*efecto cambio de color del borde*/
+
+.tarjeta.animate{
+    position: relative;
+    border-bottom: none;
+}
+.tarjeta.animate:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 0%;
+    border-radius: 0 0 5px 5px;
+    transition: 0.5s;
+}
+.tarjeta.animate:hover:before{
+    width: 100%;
+}
+.tarjeta.animate.default:before{
+    background-color: var(--default);
+}
+.tarjeta.animate.red:before{
+    background-color: var(--red);
+}
+.tarjeta.animate.blue:before{
+    background-color: var(--blue);
+}
+.tarjeta.animate.purple:before{
+    background-color: var(--purple);
+}
+.tarjeta.animate.yellow:before{
+    background-color: var(--yellow);
+}
+.tarjeta.animate.green:before{
+    background-color: var(--green);
+}
+
+
+
+
+
+
+
+
+
+

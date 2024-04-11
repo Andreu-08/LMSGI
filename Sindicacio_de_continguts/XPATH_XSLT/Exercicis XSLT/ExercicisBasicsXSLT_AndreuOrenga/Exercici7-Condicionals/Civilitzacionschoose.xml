@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Exercici7Choose.xsl"?>
+<civilizacions>
+    <civilitzacio any="2500 aC">
+        <nom>Mesopotàmia</nom>
+        <ciutat>Babilònia</ciutat>
+        <lider>Hammurabi</lider>
+        <contribucions>
+            <contribucio>Escriptura cuneïform</contribucio>
+            <contribucio>Codi de Hammurabi</contribucio>
+        </contribucions>
+    </civilitzacio>
+    <civilitzacio any="1500 aC">
+        <nom>Egipte Antic</nom>
+        <ciutat>Giza</ciutat>
+        <lider>Khufu</lider>
+        <contribucions>
+            <contribucio>Piràmides de Giza</contribucio>
+            <contribucio>Escritura jeroglífica</contribucio>
+        </contribucions>
+    </civilitzacio>
+    <civilitzacio any="500 aC">
+        <nom>Grècia Antiga</nom>
+        <ciutat>Atenes</ciutat>
+        <lider>Pericles</lider>
+        <contribucions>
+            <contribucio>Democràcia atenenca</contribucio>
+            <contribucio>Filosofia grega</contribucio>
+        </contribucions>
+    </civilitzacio>
+    <civilitzacio any="300 aC">
+        <nom>Roma Antiga</nom>
+        <ciutat>Roma</ciutat>
+        <lider>Julius Caesar</lider>
+        <contribucions>
+            <contribucio>Llei romana</contribucio>
+            <contribucio>Imperi romà</contribucio>
+        </contribucions>
+    </civilitzacio>
+</civilizacions>

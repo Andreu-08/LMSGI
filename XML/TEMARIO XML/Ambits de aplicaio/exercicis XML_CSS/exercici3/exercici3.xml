@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href = "styles3.css"?>
+<cafes>
+    <seccio>
+    <titol>llista de cafes </titol>
+    <llista>
+        <item >cafe negre</item>
+        <item>cafe amb llet</item>
+        <item>cafe amb sucre</item>
+    </llista>
+    </seccio>
+</cafes>

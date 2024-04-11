@@ -1,0 +1,73 @@
+[
+  {
+    "empleats": [
+      {
+        "nom": "",
+        "cognom": "",
+        "data_naixement": "",
+        "codi": 0,
+        "departament": "",
+        "llista_procete": [
+          {"projecte":"", "paper": ""},
+          {"projecte":"", "paper": ""}
+        ]
+        },
+      {
+        "nom": "",
+        "cognom": "",
+        "data_naixement": "",
+        "codi_empleat": 0,
+        "departament": "",
+        "llista_procete": [
+          {"projecte":"", "paper": ""},
+          {"projecte":"", "paper": ""}
+        ]
+      }
+    ]
+  },
+  {
+    "projectes": [
+      {
+        "nom_projecte": "",
+        "codi_projecte": 0,
+        "data_inici": "",
+        "data_fi": "",
+        "empleats": [
+          {"nom_empleat": "", "rol": ""},
+          {"nom_empleat": "", "rol": ""},
+          {"nom_empleat": "", "rol": ""}
+        ]
+      },
+      {
+        "nom_projecte": "",
+        "codi_projecte": 0,
+        "data_inici": "",
+        "data_fi": "",
+        "empleats": [
+          {"nom_empleat": "", "rol": ""},
+          {"nom_empleat": "", "rol": ""},
+          {"nom_empleat": "", "rol": ""}
+        ]
+      }
+    ]
+  },
+  {
+    "departaments":[
+      {
+        "nom_departament": "",
+        "codi_departament":"",
+        "Descripcio": ""
+      },
+      {
+        "nom_departament": "",
+        "codi_departament":"",
+        "Descripcio": ""
+      },
+      {
+        "nom_departament": "",
+        "codi_departament":"",
+        "Descripcio": ""
+      }
+    ]
+  }
+]

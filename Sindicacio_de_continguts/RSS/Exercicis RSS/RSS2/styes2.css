@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: powderblue;
+    color: #333;
+}
+
+a {
+    color: mediumblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#rss-footer {
+    margin-top: 20px;
+}
+
+.rss-list {
+    list-style: none;
+    padding: 0;
+}
+
+.rss-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.rss-item h2 {
+    color: #3498db; /* Blau per als títols RSS */
+}
+
+.rss-description, .rss-date {
+    color: #555;
+}
+
+/* Nou estil per fer que els títols i els noms dels animals siguin més visibles */
+#animals-list h2, #animals-list p {
+    color: #2c3e50;
+}

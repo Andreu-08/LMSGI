@@ -1,0 +1,63 @@
+body{
+    font-family: Consolas, sans-serif;
+    font-size: 10px;
+    padding: 100px 100px 100px 250px;
+}
+table{
+    border-collapse: collapse;
+    width: 40%;
+}
+th, td, tr{
+    border: 2px solid #287271;
+    padding: 8px;
+    background-color: darkseagreen;
+}
+caption{
+    background-color: #287271 ;
+    color: #2a2929;
+}
+.centrartabla{
+    text-align: center;
+}
+.programacion{
+    background-color: #F4A261;
+    color: darkslategray;
+}
+.LMSGI{
+    background-color: #E9C46A;
+    color: #707070;
+}
+.fol{
+    background-color: darkgoldenrod;
+    color: #606060
+}
+.hora{
+    background-color: gold ;
+    color: black;
+}
+.dies {
+    background-color: khaki;
+    color: black;
+}
+.sistemas{
+    background-color: yellow ;
+    color: #505050;
+}
+.bd{
+    background-color: lightgreen;
+    color: #404040;
+}
+.ingles{
+    background-color: yellowgreen;
+    color: #404040;
+}
+.ed{
+    background-color: darkorange ;
+    color: #808080;
+}
+
+
+
+
+
+

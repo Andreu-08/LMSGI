@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "colorPrincipal": {
+      "type": "string"
+    },
+    "tons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hex": {
+      "type": "string",
+      "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})?$"
+    }
+  },
+  "required": ["colorPrincipal", "tons"],
+  "additionalProperties": false
+}

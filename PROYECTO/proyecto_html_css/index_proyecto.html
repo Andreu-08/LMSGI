@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles_index.css">
+    <title>Biblioteca</title>
+    
+</head>
+
+<body>
+<header>
+    <nav>
+        <ul>
+            <li class="tarjeta default animate"><a href="html/autores.html">Autores</a></li>
+            <li class="tarjeta default animate"><a href="html/libros.html">Libros</a></li>
+            <li class="tarjeta default animate"><a href="#contacto">Contacto</a> </li>
+        </ul>
+    </nav>
+</header>
+<section class="encabezado">
+    <h1>BIBLIOTECA</h1>
+</section>
+<section>
+
+<form method="post" action="mailto: andoreram@alu.edu.gva.es" id="contacto">
+    <h2>Formulario de contacto</h2>
+    <div>
+    <label>Nom:
+        <input
+            type="text"
+            name="name"
+            placeholder="Posa el teu nom..."
+            required>
+    </label>
+    </div>
+    <div>
+    <label>Adreça electrònica:
+        <input
+            type="email"
+            name="email"
+            placeholder="el_teu@email.com..."
+            required>
+    </label>
+    </div>
+
+    <div>
+        <labe > Escriu la teua opinio
+        <textarea
+                type="text"
+                name="descripcio"
+                rows="10" cols="50"
+                placeholder="Descripcio">
+        </textarea>
+        </labe>
+    </div>
+    <div>
+        <label >
+            <input type="checkbox" id="rebreInformacio" name="rebreInformacio">
+            Vull rebre informació sobre novetats i ofertes.
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" id="condicions" name="condicions" required>
+            Declare haber llegit i acceptat les condicions generals del programa
+        </label>
+    </div>
+    <button type="submit"class="button">Enviar</button>
+</form>
+</section>
+<footer>
+    <p>&copy; Andreu Orenga HTML/CSS 1ºDAW.</p>
+</footer>
+
+
+</body>
+</html>

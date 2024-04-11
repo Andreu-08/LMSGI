@@ -1,0 +1,53 @@
+h1 {
+    color: cadetblue;
+    font-size: 25px;
+}
+h2{
+    color: blue;
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
+strong{
+    color: red;
+}
+a{
+    color: red;
+}
+em{
+color: blue;
+}
+.especial{
+    color: darkviolet;
+}
+caption{
+    color: #3498db;
+}
+
+table{
+    border-collapse: collapse;
+    color: #2ecc71;
+}
+
+td, th{
+    border: 1px solid black;
+}
+div{
+    color: #2A9D8F;
+}
+th{
+    color: red;
+}
+#adicional{
+    color: darkkhaki;
+}
+#especial{
+    color: deeppink;
+}
+a{
+    color: darkgreen;
+}
+
+
+

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afc376e4-f619-4c2d-bed0-3983b258937e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici-videotutorial/css/styles-modificat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici-videotutorial/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici-videotutorial/index-modificat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici-videotutorial/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici1/exercici1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici1/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici2/exercici2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici2/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici3/exercici3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici3/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici4/exercici4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici4/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici5/exercici5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici5/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici6/exercici6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici6/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici7/exercici7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici7/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici8/exercici8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/CSS Grid/exercici8/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/Flexbox/Galeria_FlexBox/galeria_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/Flexbox/Galeria_FlexBox/styles_galeria.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/Flexbox/Portafolio_FlexBox/Index_Portafoli.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/Flexbox/Portafolio_FlexBox/styles_Portafoli.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/animacionsCSS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/animacionsCSS/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/bootstrap/Exemple_Complet_Bottstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/bootstrap/Exercici1/Exercici_navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/bootstrap/Exercici6/index_botonsNavegacio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/bootstrap/exercici2_Jumbotron/index_jumbotron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/bootstrap/exercici3_Alerta/index_Alerta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/bootstrap/exercici4_botons/index_botons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/bootstrap/exercici5_Grid/Index_GridBootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/bootstrap/videotutorial_boodstrap/index_videotutorial_Boodstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/bootstrap/videotutorial_boodstrap/info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/tarjetas/index_tarjetas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/tarjetas/styles_tarjetas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici1/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici10/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici2/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici3/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici4/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici5/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici6/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici7/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici8/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici9/exercici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici1_EntradaDades/Exercici1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici1_EntradaDades/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici1_EntradaDades/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici2_Suma/Exercici2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici2_Suma/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici2_Suma/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici3_ConversioTemperatura/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici3_ConversioTemperatura/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici3_ConversioTemperatura/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici4_ComprovacioEdad/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici4_ComprovacioEdad/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici4_ComprovacioEdad/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici5_OperacionsMatematiques/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici5_OperacionsMatematiques/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici5_OperacionsMatematiques/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici6_ComprovacioContraseña/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici6_ComprovacioContraseña/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici6_ComprovacioContraseña/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici7_Calculadora/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici7_Calculadora/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici7_Calculadora/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/Empresa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/EquipBasquet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/Exrcicis_Basics/E1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/Exrcicis_Basics/E2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/Exrcicis_Basics/E3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/Exrcicis_Basics/E4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/Exrcicis_Basics/E5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/JSON_Schema/Exercic5JSON.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/JSON_Schema/Exercici1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/JSON_Schema/Exercici2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/JSON_Schema/Exercici3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/JSON_Schema/Exercici4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON/Ejercicos_JSON/JSON_Schema/Exercici5ESQUEMA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROYECTO/proyecto_html_css/html/autores.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROYECTO/proyecto_html_css/html/libros.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROYECTO/proyecto_html_css/index_proyecto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROYECTO/proyecto_html_css/styles/styles_autores.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROYECTO/proyecto_html_css/styles/styles_index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROYECTO/proyecto_html_css/styles/styles_libros.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROYECTO/proyecto_json/biblioteca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LMSGI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LMSGI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/ExerciciCSS_Basic2/Exercicis Bàsics (Fitxers HTML)-20231214/basic2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/ExerciciCSS_Basic2/Exercicis Bàsics (Fitxers HTML)-20231214/basic3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/ExerciciCSS_Basic2/horari.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS/exercicis_html_css/ExerciciCSS_Basic2/horari.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROYECTO/proyecto_xml/ProjecteT1-P1-AOR.rar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2aoy4BO2P6M90gg3xDmTsqpsbBo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.exercici_flex.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index_tarjetas.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.prueva.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andreu/OneDrive - Conselleria d'Educació/DAW/LMSGI/JAVA SCRIPT/Ejercicios Java Script/EjerciciosJS_2/Exercici7_Calculadora&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\JAVA SCRIPT\Ejercicios Java Script\EjerciciosJS_2\Exercici7_Calculadora" />
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\JAVA SCRIPT\Ejercicios Java Script\EjerciciosJS_2\Exercici6_ComprovacioContraseña" />
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\JAVA SCRIPT\Ejercicios Java Script\EjerciciosJS_2\Exercici4_ComprovacioEdad" />
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\JAVA SCRIPT\Ejercicios Java Script\EjerciciosJS_2\Exercici5_OperacionsMatematiques" />
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\JAVA SCRIPT\Ejercicios Java Script\EjerciciosJS_2\Exercici3_ConversioTemperatura" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\JAVA SCRIPT\Ejercicios Java Script\EjerciciosJS_2\Exercici3_ConversioTemperatura" />
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\JAVA SCRIPT\Ejercicios Java Script\EjerciciosJS_2\Exercici5_OperacionsMatematiques" />
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\JAVA SCRIPT\Ejercicios Java Script\EjerciciosJS_2" />
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\Sindicacio_de_continguts\XPATH_XSLT\Exercicis XSLT\ExercicisBasicsXSLT\Exercici2" />
+      <recent name="C:\Users\Andreu\OneDrive - Conselleria d'Educació\DAW\LMSGI\JSON\Ejercicos_JSON\Exrcicis_Basics" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="prueva.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="prueva.js" working-dir="$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afc376e4-f619-4c2d-bed0-3983b258937e" name="Changes" comment="" />
+      <created>1704999033103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704999033103</updated>
+      <workItem from="1704999034164" duration="3511000" />
+      <workItem from="1705324640437" duration="1084000" />
+      <workItem from="1705325745369" duration="1399000" />
+      <workItem from="1705341441983" duration="2259000" />
+      <workItem from="1705745037791" duration="7659000" />
+      <workItem from="1705771638245" duration="1668000" />
+      <workItem from="1705929879437" duration="2134000" />
+      <workItem from="1706204067187" duration="306000" />
+      <workItem from="1706204419758" duration="93000" />
+      <workItem from="1706206540951" duration="4767000" />
+      <workItem from="1706281406594" duration="94000" />
+      <workItem from="1706434340490" duration="9469000" />
+      <workItem from="1706468737180" duration="264000" />
+      <workItem from="1706534301061" duration="1722000" />
+      <workItem from="1706536115788" duration="7000" />
+      <workItem from="1706540736213" duration="267000" />
+      <workItem from="1706563533947" duration="72000" />
+      <workItem from="1706624245790" duration="2997000" />
+      <workItem from="1706632736036" duration="376000" />
+      <workItem from="1706713976293" duration="562000" />
+      <workItem from="1706804031146" duration="866000" />
+      <workItem from="1706808014315" duration="61000" />
+      <workItem from="1706808111867" duration="7999000" />
+      <workItem from="1706947529541" duration="4996000" />
+      <workItem from="1706954885550" duration="8618000" />
+      <workItem from="1707036828991" duration="3536000" />
+      <workItem from="1707065717352" duration="10536000" />
+      <workItem from="1707139310174" duration="2240000" />
+      <workItem from="1707148543449" duration="463000" />
+      <workItem from="1707149457893" duration="638000" />
+      <workItem from="1707157582042" duration="472000" />
+      <workItem from="1707321406396" duration="598000" />
+      <workItem from="1707416315557" duration="648000" />
+      <workItem from="1707417729505" duration="3513000" />
+      <workItem from="1707586263889" duration="10729000" />
+      <workItem from="1707646728162" duration="206000" />
+      <workItem from="1707647172132" duration="628000" />
+      <workItem from="1707745598197" duration="562000" />
+      <workItem from="1707758731927" duration="116000" />
+      <workItem from="1707842035944" duration="622000" />
+      <workItem from="1707925473058" duration="656000" />
+      <workItem from="1707929063133" duration="877000" />
+      <workItem from="1708626692986" duration="4153000" />
+      <workItem from="1708886543112" duration="352000" />
+      <workItem from="1708953967150" duration="130000" />
+      <workItem from="1708954144366" duration="1715000" />
+      <workItem from="1709230623474" duration="944000" />
+      <workItem from="1709231609147" duration="2068000" />
+      <workItem from="1709558433339" duration="2014000" />
+      <workItem from="1709837039194" duration="636000" />
+      <workItem from="1709837686466" duration="2220000" />
+      <workItem from="1709969018438" duration="3670000" />
+      <workItem from="1709972854506" duration="5932000" />
+      <workItem from="1710055973911" duration="38000" />
+      <workItem from="1710163989990" duration="836000" />
+      <workItem from="1710254987311" duration="145000" />
+      <workItem from="1710256023665" duration="2457000" />
+      <workItem from="1710441126913" duration="2948000" />
+      <workItem from="1710453997815" duration="461000" />
+      <workItem from="1710454584499" duration="852000" />
+      <workItem from="1710455610267" duration="675000" />
+      <workItem from="1711044568055" duration="5897000" />
+      <workItem from="1711380678306" duration="1921000" />
+      <workItem from="1711382679731" duration="97000" />
+      <workItem from="1711470967773" duration="63000" />
+      <workItem from="1712067515903" duration="1938000" />
+      <workItem from="1712245379704" duration="3648000" />
+      <workItem from="1712258153522" duration="327000" />
+      <workItem from="1712258536992" duration="649000" />
+      <workItem from="1712326533521" duration="102000" />
+      <workItem from="1712341545268" duration="2148000" />
+      <workItem from="1712574304303" duration="1777000" />
+      <workItem from="1712681714394" duration="2278000" />
+      <workItem from="1712684010955" duration="1928000" />
+      <workItem from="1712686054055" duration="10000" />
+      <workItem from="1712757916350" duration="85000" />
+      <workItem from="1712848915870" duration="53000" />
+      <workItem from="1712848982062" duration="1635000" />
+      <workItem from="1712853077947" duration="253000" />
+      <workItem from="1712853513989" duration="82000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JAVA SCRIPT/Ejercicios Java Script/BasicsJS/Exercici7/exercici.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

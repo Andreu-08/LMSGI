@@ -1,0 +1,128 @@
+{
+  "biblioteca": {
+    "libros": [
+      {
+        "autor": "1",
+        "portada": "https://www.mrbooks.com/mrbooks/portadas/9786287574045.webp",
+        "coleccion": "SI",
+        "ref": "13",
+        "titulo": "EL señor de los anillos, La Comunidad Del Anillo",
+        "año_publicacion": 1954,
+        "genero": "fantasia epica",
+        "editorial": "HarperCollins"
+      },
+      {
+        "autor": "1",
+        "portada": "https://www.mrbooks.com/mrbooks/portadas/9786287574052.webp",
+        "coleccion": "SI",
+        "ref": "23",
+        "titulo": "El señor de los anillos, Las Dos Torres",
+        "año_publicacion": 1954,
+        "genero": "fantasia epica",
+        "editorial": "HarperCollins"
+      },
+      {
+        "autor": "2",
+        "portada": "https://impedimenta.es/wp-content/uploads/9788418668371_SINSONTE_TEVIS_RGB.jpg",
+        "coleccion": "NO",
+        "ref": "10",
+        "titulo": "Sinsonte",
+        "año_publicacion": 1980,
+        "genero": "ciencia ficcion",
+        "editorial": "IMPEDIMENTA"
+      },
+      {
+        "autor": "3",
+        "portada": "https://imagessl4.casadellibro.com/a/l/s7/34/9788466659734.webp",
+        "coleccion": "SI",
+        "ref": "11",
+        "titulo": "El Problema De Los Tres Cuerpos",
+        "año_publicacion": 2006,
+        "genero": "ciencia ficcion",
+        "editorial": "EDICIONES B"
+      },
+      {
+        "autor": "3",
+        "portada": "https://imagessl1.casadellibro.com/a/l/s7/21/9788466660921.webp",
+        "coleccion": "SI",
+        "ref": "12",
+        "titulo": "El Problema De Los Tres Cuerpos, Bosque Oscuro",
+        "año_publicacion": 2017,
+        "genero": "ciencia ficcion",
+        "editorial": "EDICIONES B"
+      },
+      {
+        "autor": "4",
+        "portada": "https://imagessl8.casadellibro.com/a/l/s7/88/9788420682488.webp",
+        "coleccion": "SI",
+        "ref": "15",
+        "titulo": "La Voz De Las Espadas",
+        "año_publicacion": "2006+",
+        "genero": "fantasia epica",
+        "editorial": "ALIANZA EDITORIAL"
+      },
+      {
+        "autor": "4",
+        "portada": "https://imagessl1.casadellibro.com/a/l/s7/01/9788420682501.webp",
+        "coleccion": "SI",
+        "ref": "16",
+        "titulo": "Antes De Que Los Cuelguen",
+        "año_publicacion": 2007,
+        "genero": "fantasia epica",
+        "editorial": "ALIANZA EDITORIAL"
+      },
+      {
+        "autor": "5",
+        "portada": "https://imagessl9.casadellibro.com/a/l/s7/09/9788420674209.webp",
+        "coleccion": "NO",
+        "ref": "17",
+        "titulo": "El Guardian Entre El Centeno",
+        "año_publicacion": 1951,
+        "genero": "realismo",
+        "editorial": "ALIANZA EDITORIAL"
+      }
+    ],
+    "autores": [
+      {
+        "id": "1",
+        "foto": "https://i0.wp.com/elanillounico.com/wp-content/uploads/2015/03/JRR-Tolkien15.jpg?fit=760%2C1076ssl=1",
+        "nombre": "J.R.R. Tolkien",
+        "nacionalidad": "Britanica",
+        "fecha_nacimiento": "03/01/1892",
+        "bibliografia": ["13", "23"]
+      },
+      {
+        "id": "2",
+        "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/27queensgambitbook-articleLarge.webp/220px-27queensgambitbook-articleLarge.webp.png",
+        "nombre": "Walter Tevis",
+        "nacionalidad": "E.E.U.U.",
+        "fecha_nacimiento": "28/02/1928",
+        "bibliografia": ["10"]
+      },
+      {
+        "id": "3",
+        "foto": "https://imagessl.casadellibro.com/img/autores/w/20097961.webp",
+        "nombre": "Cixin Liu",
+        "nacionalidad": "China",
+        "fecha_nacimiento": "23/07/1963",
+        "bibliografia": ["11", "12"]
+      },
+      {
+        "id": "4",
+        "foto": "https://imagessl.casadellibro.com/img/autores/121490-1.jpg",
+        "nombre": "Joe Abercrombie",
+        "nacionalidad": "Reino Unido",
+        "fecha_nacimiento": "31/12/1974",
+        "bibliografia": ["15", "16"]
+      },
+      {
+        "id": "5",
+        "foto": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQVo2gUxd6sla0UctNdZ-iA_I8pIF7KqpyfdyKTZuEUt4khnU1B",
+        "nombre": "J.D. Salinger",
+        "nacionalidad": "E.E.U.U",
+        "fecha_nacimiento": "01/01/1919",
+        "bibliografia": ["17"]
+      }
+    ]
+  }
+}

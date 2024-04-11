@@ -1,0 +1,10 @@
+{
+  "numeroComanda": 1,
+  "data": "22/03/2024",
+  "productes": [
+    {"nom": "Raton", "preu": 200},
+    {"nom": "Pantalon chandal", "preu": 1300},
+    {"nom": "Lima de uñas", "preu": 3}
+  ],
+  "totalPagament": 2503
+}

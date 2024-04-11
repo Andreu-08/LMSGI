@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Animals del Món RSS</title>
+    <link rel="stylesheet" href="styes2.css">
+    <link rel="alternate" type="application/rss+xml" title="Feed d'Animals del Món" href="feed.xml">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    var rssFeedUrl = 'feed.xml';
+
+    function cargarFeedRSS() {
+        $.get(rssFeedUrl, function (data) {
+            var items = $(data).find('item');
+            var html = '<ul class="rss-list">';
+            items.each(function () {
+                var title = $(this).find('title').text();
+                var link = $(this).find('link').text();
+                var description = $(this).find('description').text();
+                var pubDate = $(this).find('pubDate').text();
+                var itemId = $(this).find('id').text();
+
+
+                html += '<li class="rss-item">';
+                html += '<h2><a href="#" onclick="abrirArticulo(\'' + itemId + '\')">' + title + '</a></h2>';
+                html += '<p class="rss-description">' + description + '</p>';
+                html += '<p class="rss-date">Data de publicació: ' + pubDate + '</p>';
+                html += '</li>';
+            });
+            html += '</ul>';
+            $('#rss-footer').html(html);
+        });
+    }
+
+    $(document).ready(function () {
+        cargarFeedRSS();
+    });
+    function abrirArticulo(itemId) {
+        window.location.href = 'index.html#' + itemId;
+    }
+</script>
+<div id="rss-footer">
+    <!-- Aquí es mostrarà el feed RSS al peu de la pàgina -->
+</div>
+<p>&copy; 2024 Animals del Món</p>
+</body>
+</html>

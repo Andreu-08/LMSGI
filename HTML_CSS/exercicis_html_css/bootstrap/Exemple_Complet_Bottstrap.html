@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Enllaç a l'estil de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Exemple Bootstrap</title>
+</head>
+<body>
+
+<!-- Barra de Navegació -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Marca i botó de desplegament en pantalles xicotetes -->
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Contingut de la barra de navegació -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <!-- Enllaços de la barra de navegació -->
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Inici <span class="sr-only">(current)</span></a>
+                <!-- La classe 'active' indica l'enllaç actual -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Serveis</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacte</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron">
+    <!-- Títol destacat -->
+    <h1 class="display-4">Bootstrap</h1>
+    <!-- Text destacat -->
+    <p class="lead">Pàgina d'exemple amb Bootstrap.</p>
+    <!-- Línia horitzontal decorativa -->
+    <hr class="my-4">
+    <!-- Text addicional -->
+    <p>En aquesta pàgina mostrem els components bàsics de Bootstrap.</p>
+</div>
+
+<!-- Caixa d'Alerta -->
+<div class="alert alert-success" role="alert">
+    <!-- Pots afegir contingut a la caixa d'alerta aquí -->
+</div>
+
+<!-- Sistema de Graella -->
+<div class="container">
+    <!-- Fila de la graella -->
+    <div class="row">
+        <!-- Columna 1 -->
+        <div class="col-sm-4">Columna 1</div>
+        <!-- Columna 2 -->
+        <div class="col-sm-4">Columna 2</div>
+        <!-- Columna 3 -->
+        <div class="col-sm-4">Columna 3</div>
+    </div>
+</div>
+
+<!-- Formulari -->
+<form>
+    <!-- Grup d'entrada amb etiqueta -->
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email</label>
+        <!-- Caixa d'entrada d'email -->
+        <input type="email" class="form-control" id="exampleFormControlInput1"
+               placeholder="androreram@alu.edu.gva.es">
+    </div>
+    <!-- Grup de selecció amb etiqueta -->
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Exemple control de Selecció</label>
+        <!-- Selecció amb opcions -->
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Opció 1</option>
+            <option>Opció 2</option>
+            <option>Opció 3</option>
+        </select>
+    </div>
+    <!-- Botó d'enviament del formulari amb estil de Bootstrap -->
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+<!-- Botons -->
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+
+<!-- Scripts de Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

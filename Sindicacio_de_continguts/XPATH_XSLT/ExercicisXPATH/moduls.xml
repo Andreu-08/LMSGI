@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ies>
+    <moduls>
+        <modul id="0228">
+            <nom>Aplicacions web</nom>
+            <curs>2</curs>
+            <horesSetmanals>4</horesSetmanals>
+            <cicle>SMX</cicle>
+        </modul>
+        <modul id="0372">
+            <nom>Gestió de bases de dades</nom>
+            <curs>1</curs>
+            <horesSetmanals>5</horesSetmanals>
+            <cicle>DAM</cicle>
+        </modul>
+        <modul id="0373">
+            <nom>Llenguatges de marques i sistemes de gestió de la informació</nom>
+            <curs>1</curs>
+            <horesSetmanals>3</horesSetmanals>
+            <cicle>DAM</cicle>
+            <cicle>DAW</cicle>
+        </modul>
+        <modul id="0376">
+            <nom>Implantació d'aplicacions web</nom>
+            <curs>2</curs>
+            <horesSetmanals>5</horesSetmanals>
+            <cicle>DAW</cicle>
+        </modul>
+    </moduls>
+</ies>

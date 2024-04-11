@@ -1,0 +1,27 @@
+{
+  "equip": {
+    "nom": "Los Angeles Lakers",
+    "color_equipacio": ["Morat", "Dorat"],
+    "nom_estadi": "Crypto.com Arena",
+    "nom_entrenador": "Darvim Han",
+    "plantilla_historica": false,
+    "web": "https://www.nba.com/lakers/[1]",
+    "jugadors": [
+      {"base": [
+          {"nom": "D'Angelo Russell ", "dorsal": 0},
+          {"nom": "Spencer Dinwiddie", "dorsal": 26}
+        ]
+      },
+      {"Alero": [
+        {"nom": "LeBron James", "dorsal": 6},
+        {"nom": "Anthony Davis", "dorsal": 3}
+      ]
+      },
+      {"Pivot": [
+          {"nom": "DeAndre Jordan", "dorsal": 6},
+          {"nom": "", "dorsal": 39}
+      ]
+      }
+    ]
+  }
+}

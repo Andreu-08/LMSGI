@@ -1,0 +1,23 @@
+body{
+   font-family: 'Roboto', sans-serif ;
+}
+
+button {
+    background-color: #2ecc71;
+    padding: 10px;
+    border-radius: 6px;
+}
+button:hover {
+    background-color: #218f4e;
+}
+input{
+    padding: 10px;
+    border-color: #2A9D8F;
+    border-radius: 6px;
+}
+#resultat{
+    background-color: #4bd9ab;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 10px;
+}

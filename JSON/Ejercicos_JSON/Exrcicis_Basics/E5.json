@@ -1,0 +1,14 @@
+{
+  "nomConferencia": "WebDelDev",
+  "ponenet": {
+    "nom": "Andreu Orenga",
+    "compañia": "IES Benigaslo"
+  },
+  "assistents": [
+    {"nom": "Iñaki", "edad": "30"},
+    {"nom": "Javi", "edad": "33"},
+    {"nom": "Ximo", "edad": "46"}
+  ],
+  "temesDiscutits":
+          ["Desarrollo de software", "Inteligencia Artificial", "Hambre en el mundo"]
+}

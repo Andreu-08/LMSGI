@@ -1,0 +1,24 @@
+boddy{
+   font-family: 'Roboto', sans-serif ;
+}
+
+button {
+    background-color: #2ecc71;
+    padding: 10px;
+    border-radius: 6px;
+}
+input{
+    padding: 10px;
+    border-color: #2A9D8F;
+    border-radius: 6px;
+}
+#comprovacio{
+    background-color: #4bd9ab;
+    color: white;
+    font-size: 30px;
+}
+div{
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 10px;
+}

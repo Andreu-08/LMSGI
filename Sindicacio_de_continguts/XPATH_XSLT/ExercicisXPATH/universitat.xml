@@ -1,0 +1,163 @@
+<universitat>
+    <nom>Universitat Fondeguilla</nom>
+    <pais>Espanya</pais>
+    <!-- CARRERES -->
+    <carreres>
+        <carrera id="c01">
+            <nom>Grau Informàtica</nom>
+            <pla>2003</pla>
+            <credits>250</credits>
+            <centre>Escola d'Informàtica</centre>
+        </carrera>
+        <carrera id="c02">
+            <nom>Grau. Empresarials</nom>
+            <pla>2001</pla>
+            <credits>275</credits>
+            <centre>Facultat de Ciències Socials</centre>
+        </carrera>
+        <carrera id="c03">
+            <nom>Grau Relacions Laborals</nom>
+            <pla>2001</pla>
+            <credits>280</credits>
+            <centre>Facultat de Ciències Socials</centre>
+            <subdirector>Alfons Martí Lluch</subdirector>
+        </carrera>
+        <carrera id="c04">
+            <nom>Grau Química</nom>
+            <pla>2003</pla>
+            <credits>175</credits>
+            <centre>Facultat de Ciències Experimentals</centre>
+        </carrera>
+        <carrera id="c05">
+            <nom>Grau Biologia</nom>
+            <pla>2001</pla>
+            <credits>175</credits>
+            <centre>Facultat de Ciències Experimentals</centre>
+        </carrera>
+        <carrera id="c06">
+            <nom>Grau Humanitats</nom>
+            <pla>1980</pla>
+            <credits>475</credits>
+            <centre>Facultat de Humanitats</centre>
+        </carrera>
+    </carreres>
+    <!-- ASSIGNATURES -->
+    <assignatures>
+        <assignatura id="a01" titulacio="c01">
+            <nom>Ofimàtica</nom>
+            <credits_teorics>3</credits_teorics>
+            <credits_practics>1.5</credits_practics>
+            <trimestre>1</trimestre>
+        </assignatura>
+        <assignatura id="a02" titulacio="c01">
+            <nom>Enginyeria del Software</nom>
+            <credits_teorics>6</credits_teorics>
+            <credits_practics>1.5</credits_practics>
+            <trimestre>2</trimestre>
+        </assignatura>
+        <assignatura id="a03" titulacio="c02">
+            <nom>Administració d'Empreses</nom>
+            <credits_teorics>4</credits_teorics>
+            <credits_practics>1.5</credits_practics>
+            <trimestre>1</trimestre>
+        </assignatura>
+        <assignatura id="a04" titulacio="c02">
+            <nom>Dret Internacional</nom>
+            <credits_teorics>4</credits_teorics>
+            <credits_practics>5</credits_practics>
+            <trimestre>1</trimestre>
+        </assignatura>
+        <assignatura id="a05" titulacio="c04">
+            <nom>Pedagogia</nom>
+            <credits_teorics>4</credits_teorics>
+            <credits_practics>1.5</credits_practics>
+            <trimestre>2</trimestre>
+        </assignatura>
+        <assignatura id="a06" titulacio="c03">
+            <nom>Didàctica</nom>
+            <credits_teorics>4</credits_teorics>
+            <credits_practics>3</credits_practics>
+            <trimestre>2</trimestre>
+        </assignatura>
+        <assignatura id="a07" titulacio="c04">
+            <nom>Tecnologia dels Aliments</nom>
+            <credits_teorics>1.5</credits_teorics>
+            <credits_practics>7.5</credits_practics>
+            <trimestre>2</trimestre>
+        </assignatura>
+        <assignatura id="a08" titulacio="c01">
+            <nom>Bases de Dades</nom>
+            <credits_teorics>4.5</credits_teorics>
+            <credits_practics>5.5</credits_practics>
+            <trimestre>1</trimestre>
+        </assignatura>
+        <assignatura id="a09" titulacio="c06">
+            <nom>Història del Pensament</nom>
+            <credits_teorics>6</credits_teorics>
+            <credits_practics>0</credits_practics>
+            <trimestre>2</trimestre>
+        </assignatura>
+    </assignatures>
+    <!-- ALUMNES -->
+    <alumnes>
+        <alumne id="e01" beca="si">
+            <cognom1>Rivas</cognom1>
+            <cognom2>Santos</cognom2>
+            <nom>Víctor Manuel</nom>
+            <sexe>Home</sexe>
+            <estudis>
+                <carrera codi="c01"/>
+                <assignatures>
+                    <assignatura codi="a01"/>
+                    <assignatura codi="a03"/>
+                    <assignatura codi="a05"/>
+                    <assignatura codi="a09"/>
+                </assignatures>
+            </estudis>
+        </alumne>
+        <alumne id="e02">
+            <cognom1>Pérez</cognom1>
+            <cognom2>García</cognom2>
+            <nom>Lluisa</nom>
+            <sexe>Dona</sexe>
+            <estudis>
+                <carrera codi="c02"/>
+                <assignatures>
+                    <assignatura codi="a02"/>
+                    <assignatura codi="a01"/>
+                </assignatures>
+                <projecte>Web d'IBM.com</projecte>
+            </estudis>
+        </alumne>
+        <alumne id="e03" beca="si">
+            <cognom1>Pérez</cognom1>
+            <cognom2>Romero</cognom2>
+            <nom>Fernando</nom>
+            <sexe>Home</sexe>
+            <estudis>
+                <carrera codi="c02"/>
+                <assignatures>
+                    <assignatura codi="a02"/>
+                    <assignatura codi="a01"/>
+                    <assignatura codi="a04"/>
+                    <assignatura codi="a09"/>
+                </assignatures>
+            </estudis>
+        </alumne>
+        <alumne id="e04">
+            <cognom1>Avaló</cognom1>
+            <cognom2>Jiménez</cognom2>
+            <nom>María</nom>
+            <sexe>Dona</sexe>
+            <estudis>
+                <carrera codi="c01"/>
+                <assignatures>
+                    <assignatura codi="a02"/>
+                    <assignatura codi="a01"/>
+                    <assignatura codi="a07"/>
+                </assignatures>
+                <projecte>Estudi de Salinitat del Pantà Iris</projecte>
+            </estudis>
+        </alumne>
+    </alumnes>
+</universitat>

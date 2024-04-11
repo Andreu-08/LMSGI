@@ -1,0 +1,9 @@
+{
+  "titol": "El señor de los anillos",
+  "director": "Peter Jackson",
+  "anyEstrena": 2001,
+  "actors" : ["Vigo Mortensen",
+              "Elijah Wood",
+              "Sean Astin",
+              "Orlando Bloom"]
+}

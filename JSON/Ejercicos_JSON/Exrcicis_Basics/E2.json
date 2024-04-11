@@ -1,0 +1,9 @@
+{
+  "nom": "Macarrones con tomate",
+  "tempsPreparacio": 15,
+  "ingredients": [
+    {"ing": "Macarrones", "cant": 100},
+    {"ing": "Tomate", "cant": 50}
+  ],
+  "pasos": ["Hervir macarrones", "Mezclar el tomate"]
+}

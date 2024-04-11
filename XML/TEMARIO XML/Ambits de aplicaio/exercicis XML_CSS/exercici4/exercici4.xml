@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href = "styles4.css"?>
+<document>
+    <titol> Dades del producte</titol>
+    <contingut>
+        <taula>
+            <fila>
+                <nom>Ordinador portatil</nom>
+                <quantitat>2</quantitat>
+                <celda id="color">800€</celda>
+            </fila>
+            <fila>
+                <celda>Impresora laser</celda>
+                <celda>1</celda>
+                <celda id="color">200€</celda>
+            </fila>
+            <fila>
+                <celda>teclat i ratoli</celda>
+                <celda>3</celda>
+                <celda id="color">50</celda>
+            </fila>
+        </taula>
+    </contingut>
+</document>

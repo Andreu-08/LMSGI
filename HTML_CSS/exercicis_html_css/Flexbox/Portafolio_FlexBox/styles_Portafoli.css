@@ -1,0 +1,53 @@
+
+.portafoli{
+    display: flex; /*cos de la pagina flexbox*/
+    flex-wrap: wrap;/*Êl contingut es posa en fila cuan no hi ha espai (resposnsiu)*/
+    justify-content: space-around;/*resparteix el espai disponible alrededor de cada projecte*/
+    align-items: flex-start; /*posa el contingut a la part  superior del contenidor*/
+}
+
+.projecte{
+    flex: 1; /*tots els projectes ocupen la mateixa cuantitat de espai*/
+    min-width: 300px;/*Amplada minima per als projectes*/
+    text-align: center;/*Centra els continguts*/
+    background:linear-gradient(to bottom, #ddb892, #ecf0f1);
+    margin: 20px;
+    padding: 20px;/*Espai per al interior del contenidos y el contingut*/
+    border-radius: 10px;/*Redondeja les cantonades del contenidor*/
+    box-shadow: 0 0 10px rgba(0,0,0,01);/*Afejeix una lleu ombra al contenidor*/
+}
+
+img {
+    max-width: 100%;/*Garanteix que la imatge no supere la amplada del contenidor*/
+    height: auto;/*Mante la proporcio original de les imgaes*/
+    border-radius: 8px; /*Redondeja el borde de les imatges*/
+    margin-bottom: 15px; /*Posa espai entre la imatge y el contingut de baix*/
+}
+
+h3{
+    color: #7f5539;
+}
+
+p{
+    color: #9c6644;
+    line-height: 1.5;/*Dona espai entre linees*/
+}
+
+.boto{
+    display: inline-block; /*El boto es comportara com un bloc y ens permetra configurar el marge*/
+    padding: 10px 20px; /*Espai interior del boto*/
+    margin-top: 15px;/*Espai entre la descripcio y el boto*/
+    background-color: #ede0d4;
+    color: #7f5539;
+    text-decoration: none; /*Elimina el subrayat dels enllaços*/
+    border-radius: 5px;
+    transition: background-color 0.3s ease;/*Transicio de color del fons cuan es fa hover*/
+}
+.boto.pulse{
+    transition: 0.5s; /*tiempo de duracion del efecto*/
+}
+
+.boto.pulse:hover{
+    transform: scale(1.05);/*tamaño que aumentara al poner el raton*/
+    background-color: #e6ccb2;
+}

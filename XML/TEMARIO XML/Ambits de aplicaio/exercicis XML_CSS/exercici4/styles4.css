@@ -1,0 +1,27 @@
+
+titol {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #333333;
+}
+taula{
+    display: table;
+    width: 50%;
+
+}
+fila{
+    display: table-row;
+
+}
+celda{
+    display: table-cell;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+#color{
+    color: green;
+}
+
+

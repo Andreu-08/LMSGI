@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0; /* Gris clar de fons */
+    color: #333;
+}
+
+header, footer {
+    background-color: #2c3e50; /* Blau fosc per a l'encapçalament i peu de pàgina */
+    color: #ecf0f1; /* Blanc per al text de l'encapçalament i peu de pàgina */
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: rgb(52, 152, 219); /* Blau fosc per als títols */
+}
+
+#animals-list {
+    margin: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #3498db; /* Blau per als enllaços */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#rss-footer {
+    margin-top: 20px;
+}
+
+.rss-list {
+    list-style: none;
+    padding: 0;
+}
+
+.rss-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.rss-item h2 {
+    color: #3498db; /* Blau per als títols RSS */
+}
+
+.rss-description, .rss-date {
+    color: #555;
+}
+
+/* Nou estil per fer que els títols i els noms dels animals siguin més visibles */
+#animals-list h2, #animals-list p {
+    color: #2c3e50;
+}

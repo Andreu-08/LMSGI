@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    margin: 20px;
+}
+.item {
+    padding: 20px;
+    background-color: #3498db;
+    text-align: center;
+    color: #fff;
+}
+.especial{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.nested {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    background-color: red;
+}
+.header{
+    color: #fff;
+    background-color: #3498db;
+
+}
+.sidebar{
+    color: #ffffff;
+    background-color: green;
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href = "styles2.css"?>
+
+<biblioteca>
+    <llibres>
+        <llibre>
+            <titol>El señor dels anells</titol>
+            <autor>jrr tolkien</autor>
+            <publicacio>1954</publicacio>
+        </llibre>
+        <llibre>
+            <titol>Como sobrevvir a los alumnos de 1º daw</titol>
+            <autor>jaume arago</autor>
+            <publicacio>2024</publicacio>
+        </llibre>
+    </llibres>
+</biblioteca>

@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "idioma": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["normal", "dark"]
+    },
+    "notificacions": {
+      "type": "boolean"
+    }
+  },
+  "required": ["idioma", "mode"],
+  "additionalProperties": false
+}

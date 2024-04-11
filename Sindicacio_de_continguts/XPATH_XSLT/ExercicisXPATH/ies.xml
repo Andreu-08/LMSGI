@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ies>
+    <nom>IES Benigaslo</nom>
+    <web>https://portal.edu.gva.es/iesbenigaslo/</web>
+    <cicles>
+        <cicle id="DAM">
+            <nom>Desenvolupament d'Aplicacions Multiplataforma</nom>
+            <grau>Superior</grau>
+            <decret any="2009" />
+        </cicle>
+        <cicle id="DAW">
+            <nom>Desenvolupament d'Aplicacions Web</nom>
+            <grau>Superior</grau>
+            <decret any ="2010" />
+        </cicle>
+        <cicle id="SMX">
+            <nom>Sistemas Microinformàtics i Xarxes</nom>
+            <grau>Mitjà</grau>
+            <decret any ="2008" />
+        </cicle>
+        <cicle id="IA">
+            <nom>Intel·ligència artificail i Big Data</nom>
+            <grau>Especialització</grau>
+            <decret any ="2018" />
+        </cicle>
+    </cicles>
+</ies>

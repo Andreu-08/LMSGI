@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href = "styles1.css"?>
+<persona>
+    <nom>Andreu</nom>
+    <cognoms>Orenga Ramon</cognoms>
+    <edad>88</edad>
+    <interessos>
+        <interes>Viatjar</interes>
+        <interes>Fotografia</interes>
+        <interes>XML</interes>
+    </interessos>
+</persona>
