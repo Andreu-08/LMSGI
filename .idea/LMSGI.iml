@@ -9,5 +9,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="picnic" level="application" />
+    <orderEntry type="library" name="jsrender" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="jquery-3.6.0" level="application" />
+    <orderEntry type="library" name="picnic" level="application" />
+    <orderEntry type="library" name="jsrender" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>

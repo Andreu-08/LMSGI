@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca de Libros</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+</head>
+<body>
+<!--template con el formulario para modificar-->
+<script id="modify_libros_template" type="text/x-handlebars-template">
+    <h1> <u>Modificar Libro: {{:titulo}}</u></h1>
+    <form class="third" id="modify_libro_form">
+        <label for="titulo">Titulo</label>
+        <input type="text" id="titulo" class="stack" value="{{:titulo}}" name="titulo">
+        <hr>
+        <label for="editorial">Editorial</label>
+        <input type="text" id="editorial" class="stack" value="{{:editorial}}" name="editorial">
+        <hr>
+        <label for="genero">Genero</label>
+        <input type="text" id="genero" class="stack" value="{{:genero}}" name="genero">
+        <hr>
+        <label for="coleccion">Colección</label>
+        <input type="text" id="coleccion" class="stack" value="{{:coleccion}}" name="coleccion">
+        <hr>
+        <label for="portada">Portada</label>
+        <input type="text" id="portada" class="stack" value="{{:portada}}" name="portada">
+        <hr>
+        <input type="submit" class="modify stack" value="Modificar" data-id="{{:id}}">
+    </form>
+</script>
+<!--template con el formulario para añadir -->
+<script id="add_libros_template" type="text/x-handlebars-template">
+    <h1> <u>Insertar Libro</u></h1>
+    <form class="third" id="add_libro_form">
+        <label for="titulo">Titulo</label>
+        <input type="text" id="titulo" class="stack" placeholder="Añade el titulo del libro" name="titulo">
+        <hr>
+        <label for="editorial">Editorial</label>
+        <input type="text" id="editorial" class="stack" placeholder="Añade la editorial" name="editorial">
+        <hr>
+        <label for="genero">Genero</label>
+        <input type="text" id="genero" class="stack" placeholder="Añade el gernero del libro" name="genero">
+        <hr>
+        <label for="coleccion">Colección</label>
+        <input type="text" id="coleccion" class="stack" placeholder="Añade si forma parte de una coleccion" name="coleccion">
+        <hr>
+        <label for="portada">Portada</label>
+        <input type="text" id="portada" class="stack" placeholder="URL de la foto de la portada" name="portada">
+        <hr>
+        <input type="submit" id="add_libros_form_send" class="send stack">
+    </form>
+</script>
+<!--script templeta de la tabla principal de la pagina-->
+<script id="libros-template" type="text/x-handlebars-template">
+    <h1><u>Biblioteca de Libros</u></h1>
+    <a href="#/add" class="button add">Add</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Título</th>
+                <th>Editorial</th>
+                <th>Género</th>
+                <th>Colección</th>
+                <th>Portada</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{for libros}}
+            <tr>
+                <td>{{:id}}</td>
+                <td>{{:titulo}}</td>
+                <td>{{:editorial}}</td>
+                <td>{{:genero}}</td>
+                <td>{{:coleccion}}</td>
+                <td><img src="{{:portada}}" alt="Portada de {{:titulo}}" style="width:100px;"></td>
+                <td>
+                <!-- data id = '', envia junto con el evento el valor del id -->
+                    <a href="#/modify?id={{:id}}" class="button modify">Modificar</a>
+                    <a href="#/borrar?id={{:id}}" class="button borrar">Borrar</a>
+                </td>
+            </tr>
+            {{/for}}
+        </tbody>
+    </table>
+
+</script>
+
+<!--import de las librerias necesarias para renderizar-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-serialize-object/2.5.0/jquery.serialize-object.min.js" integrity="sha512-Gn0tSSjkIGAkaZQWjx3Ctl/0dVJuTmjW/f9QyB302kFjU4uTNP4HtA32U2qXs/TRlEsK5CoEqMEMs7LnzLOBsA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.14/jsrender.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/navigo/8.11.1/navigo.min.js" referrerpolicy="no-referrer"></script>
+<!--contenedor principa donse de carga la aplicacion-->
+<div id="libros-container"></div>
+
+<!--escrip principal para renderizar-->
+<script>
+    //creacion del router como una constante
+    const router = new Navigo('/', {hash:true});
+    // se definen las rutas
+    router
+        .on('/', mostrarLibros)
+        .on('/index.html', mostrarLibros)
+        .on('/add', addLibros)
+        .on('/modify', modificarLibros)
+        .on('/borrar', borrarLibros)
+        .resolve();
+    //funcion INSERT
+    //funcion para enviar el formulario al añadir un libro
+    function addLibroForm(event){
+        event.preventDefault();
+        //recogemos los parametros del form
+       let form = $("#add_libro_form");
+       let parametros = form.serializeObject();
+       //enviamos los datos con http post a la api
+        $.post('/api/libros/', parametros, function(result){
+            router.navigate('/')
+        });
+
+    }
+    function addLibros(){
+        $.getJSON('/api/libros/', function(libros){
+            let html = $("#add_libros_template").render(libros);
+            $("#libros-container").html(html);
+
+            $("#add_libros_form_send").on("click", addLibroForm)
+        });
+
+    }
+
+   //funcion DELETE
+    function borrarLibros(params){
+        /*se previene el comportamiento para que al apretar el boton no nos lleve a ningun sitio
+        event.preventDefault();*/
+
+        //se recoje el id del elemento sobre el que se hizo click
+        let id = params.params.id;
+        //ahora llamaremos a la API para eliminar el elemento del id
+        //llamada asincrona con Jquery
+        $.ajax({
+            url:'/api/libros/' + id,
+            type: 'DELETE'
+        })
+            //vuelve a mostar la pagina de los libros
+            .then(function(result){
+                router.navigate('/')
+            })
+            //si hay error se muestra en consola
+            .catch(function(error){
+                console.log(error)
+            });
+    }
+
+   // funcion UPDATE
+    //funcion para enviar el formulario de modificar libro
+    function modifyLibroForm(event){
+        event.preventDefault();
+        let form = $("#modify_libro_form")
+        let parametros = form.serializeObject();
+        console.log(parametros);
+
+        let id = $(this).data("id");
+        //se llama a la API con post
+        $.post('/api/libros/' + id, parametros, function(data){
+            mostrarLibros()
+        });
+    }
+    function modificarLibros(params){
+
+        let id = params.params.id;
+       $.getJSON('/api/libros/' + id, function (dataLibro) {
+           let libro = dataLibro[0];
+           let data = {
+               'libro': libro
+           }
+           console.log(data)
+           //se renderiza en el template de libros
+           const html = $("#modify_libros_template").render(dataLibro);
+           $("#libros-container").html(html);
+
+           $(".modify").on("click", modifyLibroForm)
+       });
+
+   }
+
+    //funcion principal para mostrar la API
+    function mostrarLibros() {
+        $.getJSON('/api/libros', function (data) {
+
+            //renderizar los datos del jason que devueelve ('/api/libros')
+            const html = $("#libros-template").render(data);
+            $("#libros-container").html(html);
+
+            /*/evento para el boton que jecuta borrarlibros
+            $(".borrar").on("click", borrarLibros)
+            //evento para el botton que jecuta addlibros
+            $(".add").on("click", addLibros);
+            //evento para el boton que ejecuta modificarLibros
+            $(".modify").on("click", modificarLibros)*/
+        });
+    }
+
+    //carga la API en el documento 
+    $(document).ready(function (){
+        //mostrarLibros();
+        //la ruta raiz en la principal de este documento (index.htm)
+        router.navigate('/')
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+#libros-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #283d3d;
+}
+
+table {
+  width: 90%;
+  margin-top: 20px;
+  border-collapse: collapse;
+
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+thead tr th {
+  background-color: darkslategrey;
+}
+
+tbody tr td{
+  border: 1px solid #acb5bd;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+ a.borrar{
+  background-color: #800000;
+}
+a.modify{
+  background-color: #025669;
+}
+a.add{
+  background-color: #92a3a2;
+}
+input.send{
+  background-color: #92a3a2;
+}
+input.modify{
+  background-color:#025669;
+}
+
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renderitzar JSON amb JsRender</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.13/jsrender.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+
+    <style>
+        body {
+            margin-top: 20px; /* Margen superior */
+            margin-left: 30px; /* Margen izquierdo */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1> <span class="label success">Equips</span> </h1>
+    <div id="equiposContainer"></div>
+
+    <h1> <span class="label success">Jugadors</span> </h1>
+    <div id="jugadoresContainer"></div>
+
+<script id="equiposTemplate" type="text/x-jsrender">
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Escut</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{for equipos}}
+            <tr id="{{:idEquip}}">
+                <td>{{:nom}}</td>
+                <td><img src="{{:escut}}" alt="{{:nom}}" width="50"></td>
+            </hr>
+            {{/for}}
+        </tbody>
+    </table>
+</script>
+
+<script id="jugadoresTemplate" type="text/x-jsrender">
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Equip</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{for jugadores}}
+            <tr>
+                <td>{{:nom}}</td>
+                <td><a href="#{{:equip}}">equip</a></td>
+            </tr>
+            {{/for}}
+        </tbody>
+    </table>
+</script>
+
+<script>
+    var data = {
+        equipos: [
+            { idEquip: "eq1", nom: "Valencia CF", escut: "valencia.jpeg" },
+            { idEquip: "eq2", nom: "Villarreal CF", escut: "villareal.png" }
+
+        ],
+        jugadores: [
+            { nom: "David Villa", edat: "39", equip: "eq1" },
+            { nom: "Rubén Baraja", edat: "46", equip: "eq1" },
+            { nom: "Gaizka Mendieta", edat: "48", equip: "eq1" },
+            { nom: "Pablo Aimar", edat: "42", equip: "eq1" },
+            { nom: "Roberto Ayala", edat: "48", equip: "eq1" },
+            { nom: "Santi Cazorla", edat: "37", equip: "eq2" },
+            { nom: "Marcos Senna", edat: "45", equip: "eq2" },
+            { nom: "Diego Forlán", edat: "43", equip: "eq2" },
+            { nom: "Giuseppe Rossi", edat: "35", equip: "eq2" },
+            { nom: "Joan Capdevila", edat: "43", equip: "eq2" },
+
+
+        ]
+    };
+
+    // Renderitzar equips
+    let equiposTemplate = $.templates("#equiposTemplate");
+    let equiposHtml = equiposTemplate.render({ equipos: data.equipos });
+    //let equiposHtml = equiposTemplate.render(data);
+    $("#equiposContainer").html(equiposHtml);
+
+    // Renderitzar jugadors
+    let jugadoresTemplate = $.templates("#jugadoresTemplate");
+   // let jugadoresHtml = jugadoresTemplate.render({ jugadores: data.jugadores });
+    let jugadoresHtml = jugadoresTemplate.render(data);
+    $("#jugadoresContainer").html(jugadoresHtml);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple JsRender</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.13/jsrender.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+</head>
+<body>
+<div id="persona"></div>
+<hr>
+<div id="persones"></div>
+
+<script id="plantilla-persona" type="text/x-jsrender">
+    <div>
+      <p>Nom: {{:nom}}</p>
+      <p>Edat: {{:edat}}</p>
+      {{if casada}}
+        <p>Està casada</p>
+      {{else}}
+        <p>No està casada</p>
+      {{/if}}
+    </div>
+<!--    <ul>-->
+<!--        {{props persona}}-->
+<!--            <li>{{:prop}}: {{:val}}</li>-->
+<!--        {{/props}}-->
+<!--    </ul>-->
+
+</script>
+
+<script id="plantilla-persones" type="text/x-jsrender">
+    {{for persones}}
+      <div>
+        <p>Nom: {{:nom}}</p>
+        <p>Edat: {{:edat}}</p>
+      </div>
+    {{/for}}
+
+<!--    <ul>-->
+<!--        {{props persona}}-->
+<!--            <li>{{:prop}}: {{:val}}</li>-->
+<!--        {{/props}}-->
+<!--    </ul>-->
+</script>
+
+<script>
+    $(function() {
+        // Carregar les dades JSON externes
+        $.getJSON("dades.json", function(dades) {
+            // Renderitzar la plantilla per 2-EquipsLinkIntern una sola persona
+            var plantillaPersona = $.templates("#plantilla-persona");
+            var htmlPersona = plantillaPersona.render(dades.persona);
+            $("#persona").html(htmlPersona);
+
+            // Renderitzar la plantilla per 2-EquipsLinkIntern l'array de persones
+            var plantillaPersones = $.templates("#plantilla-persones");
+            var htmlPersones = plantillaPersones.render(dades);
+            $("#persones").html(htmlPersones);
+        });
+    });
+</script>
+</body>
+</html>
+
+
+<!--<script id="plantilla-persona" type="text/x-jsrender">-->
+<!--    <div>-->
+<!--      <p>Nom: {{:persona.nom}}</p>-->
+<!--      <p>Edat: {{:persona.edat}}</p>-->
+<!--      {{if casada}}-->
+<!--        <p>Està casada</p>-->
+<!--      {{else}}-->
+<!--        <p>No està casada</p>-->
+<!--      {{/if}}-->
+<!--    </div>-->
+<!--    -->
+<!--    -->
+<!--    var plantillaPersona = $.templates("#plantilla-persona");-->
+<!--            var htmlPersona = plantillaPersona.render(dades);-->
+<!--            $("#persona").html(htmlPersona);-->
+<!--    -->
+<!-- -->

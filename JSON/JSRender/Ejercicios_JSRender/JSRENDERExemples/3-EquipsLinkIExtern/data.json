@@ -1,0 +1,18 @@
+{
+  "equipos": [
+    { "idEquip": "eq1", "nom": "Valencia CF", "escut": "valencia.jpeg" },
+    { "idEquip": "eq2", "nom": "Villarreal CF", "escut": "villareal.png" }
+  ],
+  "jugadores": [
+    { "nom": "David Villa", "edat": "39", "equip": "eq1" },
+    { "nom": "Rubén Baraja", "edat": "46", "equip": "eq1" },
+    { "nom": "Gaizka Mendieta", "edat": "48", "equip": "eq1" },
+    { "nom": "Pablo Aimar", "edat": "42", "equip": "eq1" },
+    { "nom": "Roberto Ayala", "edat": "48", "equip": "eq1" },
+    { "nom": "Santi Cazorla", "edat": "37", "equip": "eq2" },
+    { "nom": "Marcos Senna", "edat": "45", "equip": "eq2" },
+    { "nom": "Diego Forlán", "edat": "43", "equip": "eq2" },
+    { "nom": "Giuseppe Rossi", "edat": "35", "equip": "eq2" },
+    { "nom": "Joan Capdevila", "edat": "43", "equip": "eq2" }
+  ]
+}

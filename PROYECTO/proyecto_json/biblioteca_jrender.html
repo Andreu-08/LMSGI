@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca JRender</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <link rel="stylesheet" href="styles_biblioteca_jrender.css">
+</head>
+<body>
+<h1>Biblioteca</h1>
+<div id="app"></div>
+
+<script id="biblioteca_template" type="text/x-jsrender">
+    <h2>Libros</h2>
+    {{for libros}}
+    <h3>{{:titulo}}</h3>
+    <table class="libro">
+        <tr>
+            <th>Portada</th>
+            <th>Editorial</th>
+            <th>Año de Publicación</th>
+            <th>Género</th>
+        </tr>
+        <tr>
+            <td><img src="{{:portada}}" alt="{{:titulo}}"></td>
+            <td>{{:editorial}}</td>
+            <td>{{:ano_publicacion}}</td>
+            <td>{{:genero}}</td>
+        </tr>
+    </table>
+    {{/for}}
+
+    <h2>Autores</h2>
+
+    {{for autores}}
+    <h3>{{:nombre}}</h3>
+    <table class="autor">
+        <tr>
+            <th>Foto</th>
+            <th>Nacionalidad</th>
+            <th>Fecha de nacimiento</th>
+        </tr>
+        <tr>
+            <td><img src="{{:foto}}" alt="{{:nombre}}"></td>
+            <td>{{:nacionalidad}}</td>
+            <td>{{:fecha_nacimiento}}</td>
+        </tr>
+    </table>
+    {{/for}}
+</script>
+
+
+<div id="app1"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.14/jsrender.min.js"></script>
+
+<script>
+    $.getJSON('biblioteca.json', function(data) {
+        console.log(data)
+       let html = $("#biblioteca_template").render(data.biblioteca);
+        $("#app1").html(html);
+    });
+</script>
+
+</body>
+</html>

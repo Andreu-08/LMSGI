@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>musica JSrender</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <link rel="stylesheet" href="musica.css">
+
+</head>
+<body>
+<h1>Web de musica</h1>
+<!-- Envoltem la tabla en un script per a renderizar les dades  -->
+<script id="musica_template" type="text/x-handlebars-template" >
+    <h2><u>Grupo: {{:name}}</u></h2>
+    {{for albums}}
+        <h3>Album: {{:title}}</h3>
+        <img src="{{:image}}" alt="">
+        <p><b><u>Description</u></b></p>
+        <p class ="card">{{:description}}</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Canción</th>
+                    <th>Duración</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{for songs}}
+                <tr>
+                    <td>{{:title}}</td>
+                    <td>{{:length}}</td>
+                </tr>
+            {{/for}}
+            </tbody>
+        </table>
+    {{/for}}
+    <hr>
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.14/jsrender.min.js"></script>
+
+<!--Div on se inclouran totes les dates renderitzades -->
+<div id="app"></div>
+<script>
+    //agafem totes les dades del json y les mostrem per consola
+    $.getJSON('musica.json', function(data){
+        let html = $("#musica_template").render(data);
+        $('#app').html(html)
+        console.log(html);
+    });
+</script>
+</body>
+</html>

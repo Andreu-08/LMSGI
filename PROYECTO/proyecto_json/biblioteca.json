@@ -7,7 +7,7 @@
         "coleccion": "SI",
         "ref": "13",
         "titulo": "EL señor de los anillos, La Comunidad Del Anillo",
-        "año_publicacion": 1954,
+        "ano_publicacion": 1954,
         "genero": "fantasia epica",
         "editorial": "HarperCollins"
       },
@@ -17,7 +17,7 @@
         "coleccion": "SI",
         "ref": "23",
         "titulo": "El señor de los anillos, Las Dos Torres",
-        "año_publicacion": 1954,
+        "ano_publicacion": 1954,
         "genero": "fantasia epica",
         "editorial": "HarperCollins"
       },
@@ -27,7 +27,7 @@
         "coleccion": "NO",
         "ref": "10",
         "titulo": "Sinsonte",
-        "año_publicacion": 1980,
+        "ano_publicacion": 1980,
         "genero": "ciencia ficcion",
         "editorial": "IMPEDIMENTA"
       },
@@ -37,7 +37,7 @@
         "coleccion": "SI",
         "ref": "11",
         "titulo": "El Problema De Los Tres Cuerpos",
-        "año_publicacion": 2006,
+        "ano_publicacion": 2006,
         "genero": "ciencia ficcion",
         "editorial": "EDICIONES B"
       },
@@ -47,7 +47,7 @@
         "coleccion": "SI",
         "ref": "12",
         "titulo": "El Problema De Los Tres Cuerpos, Bosque Oscuro",
-        "año_publicacion": 2017,
+        "ano_publicacion": 2017,
         "genero": "ciencia ficcion",
         "editorial": "EDICIONES B"
       },
@@ -57,7 +57,7 @@
         "coleccion": "SI",
         "ref": "15",
         "titulo": "La Voz De Las Espadas",
-        "año_publicacion": "2006+",
+        "ano_publicacion": 2006,
         "genero": "fantasia epica",
         "editorial": "ALIANZA EDITORIAL"
       },
@@ -67,7 +67,7 @@
         "coleccion": "SI",
         "ref": "16",
         "titulo": "Antes De Que Los Cuelguen",
-        "año_publicacion": 2007,
+        "ano_publicacion": 2007,
         "genero": "fantasia epica",
         "editorial": "ALIANZA EDITORIAL"
       },
@@ -77,7 +77,7 @@
         "coleccion": "NO",
         "ref": "17",
         "titulo": "El Guardian Entre El Centeno",
-        "año_publicacion": 1951,
+        "ano_publicacion": 1951,
         "genero": "realismo",
         "editorial": "ALIANZA EDITORIAL"
       }

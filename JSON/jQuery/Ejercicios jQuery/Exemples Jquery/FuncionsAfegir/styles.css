@@ -1,0 +1,11 @@
+/* Estils per a l'element <span> */
+span {
+    color: blue; /* Canvia el color del text a blau */
+    font-weight: bold; /* Fa que el text sigui en negreta */
+}
+
+/* Estils per a l'element .container */
+.container {
+    background-color: lightgray; /* Canvia el color de fons a gris clar */
+    padding: 10px; /* Afegeix un espai interior de 10px */
+}

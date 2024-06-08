@@ -1,0 +1,13 @@
+{
+  "persona": {
+    "nom": "Isabel",
+    "edat": 28,
+    "casada": true
+  },
+
+  "persones": [
+    {"nom": "Joan", "edat": 35},
+    {"nom": "Carla", "edat": 40},
+    {"nom": "Pep", "edat": 30}
+  ]
+}
